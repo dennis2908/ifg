@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "e4e75915-ed31-455f-a051-1cdc7ee759ff",
+		"name": "IFG Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "13814383"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/excel/upload",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "3cdcnTiBsl",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/ASUS GAMING/Downloads/tutorials.xlsx"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/excel/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"excel",
+						"upload"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
