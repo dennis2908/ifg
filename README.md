@@ -2,4 +2,4 @@
 docker compose up --build
 ```
 
-Postman : di folde Postman
+Postman : di folder Postman
